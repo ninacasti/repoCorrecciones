@@ -21,25 +21,20 @@
     </nav>
 
     <section id="sectionContacto" class="fade-in">
-        <article>
-            <h2>¿Quer&eacute;s exponer en nuestra galer&iacute;a?</h2>
-            <form action="" method="get" enctype="text/plain">
-                <div>
-                    <label for="userName">Nombre:</label>
-                    <input  type="text" name="userName" id="userName" placeholder="Ingrese su nombre">
-                </div>
-                <div>
-                    <label for="userMail">Correo:</label>
-                    <input type="email" name="userMail" id="userMail" placeholder="Ingrese su correo">
-                </div>
-                <div>
-                    <label for="userText">Ingrese su mensaje:</label>
-                    <br>
-                    <textarea name="userText" id="userText" cols="30" rows="10"></textarea>
-                </div>
-                <button type="button" class="btn btn-outline-light">Enviar</button>
-            </form>
-        </article>
+        <h2>¿Quer&eacute;s exponer en nuestra galer&iacute;a?</h2>
+            <div class="mb-3">
+                <label for="userName" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="userName">
+            </div>
+            <div class="mb-3">
+                <label for="userMail" class="form-label">Correo:</label>
+                <input type="email" class="form-control" id="userMail">
+            </div>
+            <div class="mb-3">
+                <label for="userText" class="form-label">Ingrese su mensaje:</label>
+                <textarea class="form-control" id="userText" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-light">Enviar</button>
     </section>
 
     <footer>

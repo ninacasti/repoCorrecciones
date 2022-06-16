@@ -21,12 +21,11 @@ body {
 }
 
 .listaMenu {
-    padding: 3rem;
-    list-style-type: none;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px 0;
 }
 
 .listaMenu li {
@@ -131,6 +130,7 @@ body {
 #sectionNews p{
     color: white;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 #sectionNews div,
@@ -151,7 +151,6 @@ body {
 #seccionArtistas section {
     margin-left: 10%;
     display: flex;
-    flex-direction: row;
     padding: 15px;
 }
 
@@ -198,6 +197,13 @@ body {
 
 /*Exposiciones*/
 
+#sectionExposContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    max-width: 1000px;
+}
+
     .tablaMes {
         text-align: center;
         padding: 15px;
@@ -228,6 +234,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
+    max-width: 1000px;
 }
 
 #sectionNosotros article {
@@ -258,6 +265,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 700px;
+    justify-self: center;
 }
 
 #sectionContacto article {
